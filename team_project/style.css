@@ -1,0 +1,12 @@
+.div-col {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.div-section {
+    padding: 20px;
+    background-color: #dfdfdf;
+}
