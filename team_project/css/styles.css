@@ -1,12 +1,43 @@
+body {
+  background-color: #1a1c20;
+  color: #e9eaec;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #0B0C0C;
+  color: #e4b61a;
+  height: 175px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#page-links a{
+padding: 25px;
+}
+
+a:link {
+  color: #dfdfdf;
+}
+
+a:visited {
+  color: #dfdfdf;
+}
+
+a:hover {
+  color: #e4b61a;
+}
+
 .div-col {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    justify-content: space-between;
-    height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: space-between;
+  height: 100vh;
 }
 
 .div-section {
-    padding: 20px;
-    background-color: #dfdfdf;
+  padding: 20px;
+  background-color: #dfdfdf;
 }
