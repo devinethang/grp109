@@ -29,6 +29,15 @@ a:hover {
   color: #e4b61a;
 }
 
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+
 .div-col {
   display: flex;
   flex-direction: column;
