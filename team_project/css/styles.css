@@ -13,7 +13,7 @@ header {
   flex-direction: column;
   align-items: center;
 }
-#page-links a{
+#page-links a {
 padding: 25px;
 }
 
@@ -29,15 +29,6 @@ a:hover {
   color: #e4b61a;
 }
 
-.form {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  justify-content: center;
-  align-items: center;
-  height: 60vh;
-}
-
 .div-col {
   display: flex;
   flex-direction: column;
@@ -49,4 +40,16 @@ a:hover {
 .div-section {
   padding: 20px;
   background-color: #dfdfdf;
+}
+
+footer {
+    background-color: #0B0C0C;
+    color: #dfdfdf;
+    height: 175px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer p {
+padding: 10px;
 }
