@@ -8,14 +8,20 @@ body {
 header {
   background-color: #0B0C0C;
   color: #e4b61a;
-  height: 175px;
+  height: 225px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
+}
+
+.logo {
+  font-size: 30px;
+
 }
 
 #page-links a {
-  padding: 25px;
+padding: 25px;
 }
 
 .form {
@@ -53,48 +59,13 @@ a:hover {
 }
 
 footer {
-  background-color: #0B0C0C;
-  color: #dfdfdf;
-  height: 175px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    background-color: #0B0C0C;
+    color: #dfdfdf;
+    height: 175px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-
 footer p {
-  padding: 10px;
-}
-
-.product-gallery {
-  text-align: center;
-  padding: 2rem;
-  background-color: #0B0C0C; 
-  color: #dfdfdf; 
-}
-
-.product {
-  display: inline-block;
-  margin: 1.5rem;
-  transition: transform 0.3s ease;
-}
-
-.product img {
-  width: 160px;
-  height: auto;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.05); 
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.product:hover {
-  transform: scale(1.05);
-}
-
-.product img:hover {
-  box-shadow: 0 6px 16px rgba(255, 255, 255, 0.15);
-}
-
-.product p {
-  color: #dfdfdf;
-  margin-top: 0.5rem;
+padding: 10px;
 }
