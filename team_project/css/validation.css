@@ -1,5 +1,4 @@
-
-body {
+#validation-body {
   font-family: Arial, sans-serif;
   background-color: #fdfdfd;
   color: #333;
@@ -33,4 +32,3 @@ img {
   display: block;
   margin: 0 auto;
 }
-
