@@ -23,15 +23,6 @@ header {
 padding: 25px;
 }
 
-.form {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  justify-content: center;
-  align-items: center;
-  height: 60vh;
-}
-
 a:link {
   color: #dfdfdf;
 }
