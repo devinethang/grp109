@@ -14,12 +14,10 @@ header {
   align-items: center;
   text-align: center;
 }
-
 .logo {
   font-size: 30px;
 
 }
-
 #page-links a {
 padding: 25px;
 }
@@ -67,16 +65,13 @@ a:hover {
 }
 
 .product {
-@@ -80,7 +82,7 @@ padding: 10px;
+  padding: 10px;
   width: 160px;
   height: auto;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   box-shadow: 0 4px 8px rgba(255, 255, 255, 0.05); 
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-@@ -89,6 +91,10 @@ padding: 10px;
 }
 
 .product img:hover {
@@ -88,7 +83,6 @@ a:hover {
   color: #dfdfdf;
   margin-top: 0.5rem;
 }
-
 footer {
     background-color: #0B0C0C;
     color: #dfdfdf;
