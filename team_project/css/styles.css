@@ -64,25 +64,35 @@ a:hover {
   color: #dfdfdf; 
 }
 
+
+.product-gallery {
+  text-align: center;
+  padding: 2rem;
+  background-color: #fffaf0;
+}
+
 .product {
-  padding: 10px;
+  display: inline-block;
+  margin: 1.5rem;
+  transition: transform 0.3s ease;
+}
+
+.product img {
   width: 160px;
   height: auto;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.05); 
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product:hover {
+  transform: scale(1.05);
 }
 
 .product img:hover {
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
-  box-shadow: 0 6px 16px rgba(255, 255, 255, 0.15);
 }
 
-.product p {
-  color: #dfdfdf;
-  margin-top: 0.5rem;
-}
 footer {
     background-color: #0B0C0C;
     color: #dfdfdf;
