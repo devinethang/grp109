@@ -56,19 +56,24 @@ a:hover {
   background-color: #dfdfdf;
 }
 
-.product-gallery {
-  text-align: center;
-  padding: 2rem;
-  background-color: #fffaf0;
-  background-color: #0B0C0C; 
-  color: #dfdfdf; 
+footer {
+  background-color: #0B0C0C;
+  color: #dfdfdf;
+  height: 175px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
+footer p {
+  padding: 10px;
+}
 
 .product-gallery {
   text-align: center;
   padding: 2rem;
-  background-color: #fffaf0;
+  background-color: #0B0C0C; 
+  color: #dfdfdf; 
 }
 
 .product {
@@ -81,7 +86,7 @@ a:hover {
   width: 160px;
   height: auto;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.05); 
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -90,17 +95,10 @@ a:hover {
 }
 
 .product img:hover {
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 6px 16px rgba(255, 255, 255, 0.15);
 }
 
-footer {
-    background-color: #0B0C0C;
-    color: #dfdfdf;
-    height: 175px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-footer p {
-padding: 10px;
+.product p {
+  color: #dfdfdf;
+  margin-top: 0.5rem;
 }
