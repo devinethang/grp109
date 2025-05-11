@@ -14,10 +14,11 @@ header {
   align-items: center;
   text-align: center;
 }
+
 .logo {
   font-size: 30px;
-
 }
+
 #page-links a {
 padding: 25px;
 }
