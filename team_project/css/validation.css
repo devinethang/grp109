@@ -5,14 +5,17 @@
   padding: 0;
 }
 
-/* Adds spacing to elements */
+/* Adds spacing and allignment to elements */
 .spacing {
   margin: 15px;
   padding: 15;
+  text-align: left;
 }
 
 .report {
   text-align: center;
+  margin-top: 25px;
+  
 }
 
 main {
@@ -38,13 +41,5 @@ img {
   height: auto;
   border: 1px solid #ccc;
   border-radius: 5px;
-  display: block;
   margin: 0 auto;
-}
-
-.html-validation {
-
-}
-
-.css-validation {
 }
