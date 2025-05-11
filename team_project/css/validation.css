@@ -2,8 +2,17 @@
   font-family: Arial, sans-serif;
   background-color: #fdfdfd;
   color: #333;
-  margin: 0;
   padding: 0;
+}
+
+/* Adds spacing to elements */
+.spacing {
+  margin: 15px;
+  padding: 15;
+}
+
+.report {
+  text-align: center;
 }
 
 main {
@@ -31,4 +40,11 @@ img {
   border-radius: 5px;
   display: block;
   margin: 0 auto;
+}
+
+.html-validation {
+
+}
+
+.css-validation {
 }
