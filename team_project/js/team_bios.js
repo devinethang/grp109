@@ -11,10 +11,6 @@ const bios = {
     text: "Add Text Here.",
     style: "devin.css",
   },
-  aaron: {
-    text: "Add Text Here",
-    style: "aaron.css",
-  }
 };
 
 document.getElementById('member-select').addEventListener('change', function () {
