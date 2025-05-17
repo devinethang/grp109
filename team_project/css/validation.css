@@ -35,7 +35,7 @@ section h3 {
   color: #444;
 }
 
-img {
+#validation-section img {
   max-width: 100%;
   height: auto;
   border: 1px solid #ccc;
