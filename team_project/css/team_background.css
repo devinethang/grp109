@@ -1,0 +1,44 @@
+#project-desc-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 25px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+h3 {
+  font-weight: bolder;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  color: #e4b61a;
+  margin-bottom: 15px;
+}
+
+select {
+  font-size: 1rem;
+  padding: 10px;
+  border-radius: 8px;
+  border: 2px solid #e4b61a;
+  background-color: #fffdf3;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+#member-bio {
+  max-width: 600px;
+  font-size: 1.1rem;
+  background-color: #fff8d4;
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid #e4b61a;
+  color: #333;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+option {
+  background-color: #fffdf3;
+  color: #333;
+}
