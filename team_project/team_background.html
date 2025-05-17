@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Team Backgrounds</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link id="member-style" rel="stylesheet" href="./css/project_details.css" />
+    <script defer src="./js/team_bios.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="logo"><h1>THE HIVE</h1></div>
+      <nav id="page-links">
+        <a href="./index.html">HOME</a>
+        <a href="./products.html">PRODUCTS</a>
+        <a href="./contact.html">CONTACT</a>
+        <a href="./project_details.html">PROJECT DETAILS</a>
+        <a href="./change_log.html">CHANGE LOG</a>
+        <a href="./validation.html">VALIDATION TRACKER</a>
+        <a href="./team_background.html">TEAM BACKGROUND</a>
+      </nav>
+    </header>
+
+    <main id="project-desc-container">
+      <h3>Select a Team Member</h3>
+      <label for="member-select" class="sr-only">Select Member</label>
+      <select id="member-select" aria-label="Select a team member">
+        <option value="">  Choose  </option>
+        <option value="wilber">Wilber Amaya-Maurisio</option>
+        <option value="joel">Joel Samuel</option>
+        <option value="devin">Devin Graupmann</option>
+        <option value="aaron">Aaron Snip</option>
+      </select>
+
+      <section id="member-bio" aria-live="polite" style="margin-top: 30px;"></section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Honey Hive</p>
+      <p>
+        <a href="http://validator.w3.org/check?uri=referer" target="_blank">
+          <img src="http://www.w3.org/Icons/valid-xhtml10" alt="HTML Validator" height="31" width="88" />
+        </a>
+      </p>
+      <p>
+        <a href="https://jigsaw.w3.org/css-validator/validator?uri=referer" target="_blank">
+          <img src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="CSS Validator" />
+        </a>
+      </p>
+    </footer>
+  </body>
+</html>
