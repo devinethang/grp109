@@ -1,5 +1,4 @@
 #validation-body {
-  font-family: Arial, sans-serif;
   background-color: #fdfdfd;
   color: #333;
   padding: 0;
@@ -7,6 +6,7 @@
 
 /* Adds spacing and allignment to elements */
 .spacing {
+  font-family: Arial, sans-serif;
   margin: 15px;
   padding: 15px;
   text-align: left;
@@ -15,7 +15,6 @@
 .report {
   text-align: center;
   margin-top: 25px;
-  
 }
 
 main {
