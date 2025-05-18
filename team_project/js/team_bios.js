@@ -10,6 +10,9 @@ const bios = {
                   <a href="https://github.com/simplywilber" target="_blank">
                     <img src="./images/githublogo.png" alt="Wilber's GitHub link" height="44" width="44">
                   </a>
+                    <a href="https://simplywilber.com" target="_blank">
+                    <img src="./images/globe.png" alt="Wilber's website link" height="44" width="44">
+                  </a>
                 </div>
               </div>
             </div>

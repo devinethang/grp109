@@ -12,6 +12,12 @@
 
 img {
     border-radius: 50%;
+    box-shadow: 0 10px 12px;
+}
+
+a img:hover {
+    transform: scale(1.10);
+    box-shadow: 0 6px 14px 
 }
 
 #intro {
