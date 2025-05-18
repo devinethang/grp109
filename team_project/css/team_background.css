@@ -31,9 +31,7 @@ select {
   max-width: 600px;
   font-size: 1.1rem;
   background-color: #fff8d4;
-  padding: 20px;
   border-radius: 12px;
-  border: 1px solid #e4b61a;
   color: #333;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }

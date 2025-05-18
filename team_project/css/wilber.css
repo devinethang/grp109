@@ -1,4 +1,6 @@
 #member-bio {
+    border: 1px solid #e4b61a;
+    padding: 20px;
     width: 100vw;
     height: 100vh;
 }
