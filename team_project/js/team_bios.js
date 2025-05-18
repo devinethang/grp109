@@ -1,6 +1,10 @@
 const bios = {
   wilber: {
-    text: "Add Text Here",
+    text: `
+      <h2>Wilber Amaya-Maurisio</h2>
+      <img src="images/wilber.jpg" alt="Wilber's photo" style="max-width: 200px;">
+      <p>This is some info about Wilber the pig</p>
+    `,
     style: "wilber.css",
   },
   joel: {
@@ -19,7 +23,7 @@ document.getElementById('member-select').addEventListener('change', function () 
   const styleLink = document.getElementById('member-style');
 
   if (bios[selected]) {
-    bioSection.textContent = bios[selected].text;
+    bioSection.innerHTML = bios[selected].text;
     styleLink.href = `./css/${bios[selected].style}`;
   } else {
     bioSection.textContent = '';
