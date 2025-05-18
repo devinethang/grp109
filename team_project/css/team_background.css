@@ -1,3 +1,4 @@
+
 #project-desc-container {
   display: flex;
   flex-direction: column;
@@ -5,8 +6,7 @@
   align-items: center;
   text-align: center;
   padding: 25px;
-  margin-top: 25px;
-  margin-bottom: 25px;
+  gap: 48px;
 }
 
 h3 {
