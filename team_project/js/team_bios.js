@@ -3,13 +3,32 @@ const bios = {
     text: `<div id="container"> 
             <div id="intro">               
               <img src="./images/wilbers-pic.gif" alt="Wilber's photo" width="175" height="175">
-              <div id=name-intro>
+              <div id="name-intro">
                 <h2>Wilber Amaya-Maurisio</h2>
                 <p>Bellevue College</p>
               </div>
             </div>
-            <div id=bio>
-              <p>This is some info about Wilber the pig</p>
+            <div id="bio">
+              <p>
+                Hi! My name is Wilber or you can call me Wil, and welcome to my mini page!
+              </p>
+              <p>
+                I'm currently a student at Bellevue 
+                College and pursuing a BAS in Software Develpoment.
+              </p>
+              <p>
+                Some of my favorite hobbies include working out, eating, traveling to diffrent countries and of course, programming.
+                I'm also a huge Marvel fan so from time to time, you'll find me re-watching a Marvel movie or show.
+              </p>
+              <p>
+              For this project, I will serve as the team leader, responsible for designing, developing, and providing support across all aspects of the site's creation.
+              </p>
+              <p>
+                Feel free to connect with me at anytime, and yes, I would love to collaborate!
+              </p>
+              <p>
+                -Wil
+              </p>
             </div>
            </div>
 
