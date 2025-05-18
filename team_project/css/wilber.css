@@ -2,3 +2,17 @@
     width: 100vw;
     height: 100vh;
 }
+
+#container {
+    text-align: left;
+}
+#intro {
+    display: flex;
+    gap: 30px;
+}
+
+#name-intro {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
