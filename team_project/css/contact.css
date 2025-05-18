@@ -33,6 +33,10 @@ input {
     box-sizing: border-box;
 }
 
+textarea {
+    padding: 10px;
+}
+
 #message-block {
     height: 200px;
     width: 800px;
