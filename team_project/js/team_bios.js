@@ -1,6 +1,6 @@
 const bios = {
   wilber: {
-    text: `<div "id=container"> 
+    text: `<div id="container"> 
             <div id="intro">               
               <img src="./images/wilbers-pic.gif" alt="Wilber's photo" width="175" height="175">
               <div id=name-intro>
