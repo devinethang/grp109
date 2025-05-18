@@ -21,3 +21,10 @@
     margin: 10px;
     margin-top: 60px;
 }
+
+#signature {
+    font-family: "East Sea Dokdo", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 200%;
+}

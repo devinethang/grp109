@@ -2,7 +2,7 @@ const bios = {
   wilber: {
     text: `<div id="container"> 
             <div id="intro">               
-              <img src="./images/wilbers-pic.gif" alt="Wilber's photo" width="175" height="175">
+              <img src="./images/wilbers-pic.gif" alt="Wilber's photo" width="185" height="185">
               <div id="name-intro">
                 <h2>Wilber Amaya-Maurisio</h2>
                 <p>Bellevue College</p>
@@ -26,7 +26,7 @@ const bios = {
               <p>
                 Feel free to connect with me at anytime, and yes, I would love to collaborate!
               </p>
-              <p>
+              <p id="signature">
                 -Wil
               </p>
             </div>
