@@ -51,3 +51,10 @@
     text-decoration: underline;
     text-underline-offset: 5px;
 }
+
+#accessibility-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; 
+  }
+  
