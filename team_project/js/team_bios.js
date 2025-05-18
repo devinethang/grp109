@@ -2,13 +2,13 @@ const bios = {
   wilber: {
     text: `<div id="container"> 
             <div id="intro">               
-              <img src="./images/wilbers-pic.gif" alt="Wilber's photo" width="215" height="215">
+              <img src="./images/wilbers-pic.gif" alt="Wilber's photo" width="215" height="215" id="wilbers-profile-pic">
               <div id="name-intro">
                 <h2>Wilber Amaya-Maurisio</h2>
                 <p>Bellevue College</p>
-                <div>
+                <div id="links">
                   <a href="https://github.com/simplywilber" target="_blank">
-                    <img src="./images/githublogo.png" alt="Wilber's GitHub link" height="44" width="44">
+                    <img src="./images/githublogo.png" alt="Wilber's GitHub link" height="55" width="55">
                   </a>
                     <a href="https://simplywilber.com" target="_blank">
                     <img src="./images/globe.png" alt="Wilber's website link" height="44" width="44">
@@ -35,7 +35,7 @@ const bios = {
                 Feel free to connect with me at anytime, and yes, I would love to collaborate!
               </p>
               <p id="signature">
-                -Wil
+                Wil
               </p>
             </div>
            </div>

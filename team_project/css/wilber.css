@@ -10,16 +10,21 @@
     text-align: left;
 }
 
-#container img {
+#wilbers-profile-pic {
     border-radius: 50%;
     box-shadow: 0 10px 5px;
 }
 
 a img:hover {
+    border-radius: 50%;
     transform: scale(1.10);
     box-shadow: 0 6px 14px 
 }
 
+#links {
+    display: flex;
+    align-items: center;
+}
 #intro {
     display: flex;
     gap: 30px;
@@ -34,8 +39,10 @@ a img:hover {
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-style: normal;
+    background-color: rgb(235, 212, 141);
     margin: 10px;
     margin-top: 60px;
+    padding: 10px;
 }
 
 #signature {
@@ -43,4 +50,5 @@ a img:hover {
     font-weight: 400;
     font-style: normal;
     font-size: 200%;
+    text-align: center;
 }
