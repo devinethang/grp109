@@ -43,8 +43,8 @@ const bios = {
     `,
     style: "wilber.css",
   },
-joel: {
-  text: `<div id="container"> 
+  joel: {
+    text: `<div id="container"> 
           <div id="intro">               
             <div id="name-intro">
               <h2>Joel Samuel</h2>
@@ -62,10 +62,22 @@ joel: {
               My role in this project is to assist with the HTML/CSS formatting and checking for errors within the repository.
           </div>
          </div>`,
-  style: "joel.css",
-},
+    style: "joel.css",
+  },
   devin: {
-    text: "Add Text Here.",
+    text: `<h1> Devin Graupmann </h1>
+      <p> 
+        Greetings Ladies and Gentlemen! My name is Devin and I am an undergrad at Bellevue College.
+        I am currently working on attaining my associates degree in software development. </p>
+      <p> 
+        I love to hike, kayack, and do archery. I also enjoy playing video games and spending time with my family.
+      </p>
+      <p>
+       I will be hosting this project's repository in addition to working on any new sections of the project.
+      </p>
+      <p> 
+      If you have any questions or would like to connect, feel free to reach out!
+      </p>`,
     style: "devin.css",
   },
 };
