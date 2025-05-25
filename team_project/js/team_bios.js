@@ -70,7 +70,8 @@ const bios = {
         <h1> Devin Graupmann </h1>
         <div class="seperator">
         <p> 
-          Greetings Ladies and Gentlemen! My name is Devin and I am an undergrad at Bellevue College.
+          Greetings Ladies and Gentlemen! My name is Devin.
+          and I am an undergrad at Bellevue College.
           I am currently working on attaining my associates degree in software development. </p>
         <p> 
           I love to hike, kayack, and do archery. I also enjoy playing video games and spending time with my family.
