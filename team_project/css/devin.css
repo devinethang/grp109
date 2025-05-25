@@ -12,6 +12,6 @@
     margin-bottom: 24px;
     font-size: 1.2rem;
     letter-spacing: 0.03em;
-    background-image: url('/images/TeamBackground/hexellence.png'), linear-gradient(90deg, #ffe066 0%, #ffd700 100%);
+    background-image: url('../images/TeamBackground/hexellence.png'), linear-gradient(90deg, #ffe066 0%, #ffd700 100%);
     background-blend-mode: multiply;
 }
