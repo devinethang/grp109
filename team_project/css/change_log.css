@@ -1,9 +1,9 @@
 
-#change-log-body {
+.change-log-body {
     font-family: 'Courier New', Courier, monospace;
 }
 
-#change-log-body h2 {
+.change-log-body h2 {
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
     font-size: 35px;
@@ -52,7 +52,7 @@
     text-underline-offset: 5px;
 }
 
-#accessibility-container {
+.accessibility-container {
     display: flex;
     flex-wrap: wrap;
     gap: 20px; 
