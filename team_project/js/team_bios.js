@@ -68,6 +68,7 @@ const bios = {
     text: `
     <div class="intro">
         <h1> Devin Graupmann </h1>
+        <div class="seperator">
         <p> 
           Greetings Ladies and Gentlemen! My name is Devin and I am an undergrad at Bellevue College.
           I am currently working on attaining my associates degree in software development. </p>
@@ -80,6 +81,7 @@ const bios = {
         <p> 
         If you have any questions or would like to connect, feel free to reach out!
         </p>
+        </div>
       </div>`,
     style: "devin.css",
   },

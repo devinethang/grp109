@@ -2,3 +2,12 @@
     border: 1px solid #e4b61a;
     padding: 20px;
 }
+
+.seperator {
+    border-top: 1px solid #e4b61a;
+    margin: 20px 0;
+}
+
+.intro {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
