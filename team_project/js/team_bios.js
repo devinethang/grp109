@@ -4,7 +4,7 @@ const bios = {
             <div id="intro">               
               <img src="./images/wilbers-pic.gif" alt="Wilber's photo" width="215" height="215" id="wilbers-profile-pic">
               <div id="name-intro">
-                <h2>Wilber Amaya-Maurisio</h2>
+                <h3>Wilber Amaya-Maurisio</h3>
                 <p>Bellevue College</p>
                 <div id="links">
                   <a href="https://github.com/simplywilber" target="_blank">
@@ -47,7 +47,7 @@ const bios = {
     text: `<div id="container"> 
           <div id="intro">               
             <div id="name-intro">
-              <h2>Joel Samuel</h2>
+              <h3>Joel Samuel</h3>
               <p>Bellevue College</p>
             </div>
           </div>
