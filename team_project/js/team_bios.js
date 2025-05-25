@@ -65,19 +65,22 @@ const bios = {
     style: "joel.css",
   },
   devin: {
-    text: `<h1> Devin Graupmann </h1>
-      <p> 
-        Greetings Ladies and Gentlemen! My name is Devin and I am an undergrad at Bellevue College.
-        I am currently working on attaining my associates degree in software development. </p>
-      <p> 
-        I love to hike, kayack, and do archery. I also enjoy playing video games and spending time with my family.
-      </p>
-      <p>
-       I will be hosting this project's repository in addition to working on any new sections of the project.
-      </p>
-      <p> 
-      If you have any questions or would like to connect, feel free to reach out!
-      </p>`,
+    text: `
+    <div class="intro">
+        <h1> Devin Graupmann </h1>
+        <p> 
+          Greetings Ladies and Gentlemen! My name is Devin and I am an undergrad at Bellevue College.
+          I am currently working on attaining my associates degree in software development. </p>
+        <p> 
+          I love to hike, kayack, and do archery. I also enjoy playing video games and spending time with my family.
+        </p>
+        <p>
+        I will be hosting this project's repository in addition to working on any new sections of the project.
+        </p>
+        <p> 
+        If you have any questions or would like to connect, feel free to reach out!
+        </p>
+      </div>`,
     style: "devin.css",
   },
 };
