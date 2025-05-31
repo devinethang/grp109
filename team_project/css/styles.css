@@ -58,8 +58,21 @@ footer {
   justify-content: center;
 }
 
-footer p {
-  padding: 10px;
+.footer-container {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.validator-icons {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.validator-icons img {
+  border-radius: 5px;
 }
 
 .product-gallery {
