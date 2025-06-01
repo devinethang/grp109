@@ -1,6 +1,8 @@
-#validation-body {
-  background-color: #fdfdfd;
-  color: #333;
+body {
+  background-color: #1a1c20;
+  line-height: 1.5;
+  color: #e9eaec;
+  margin: 0;
   padding: 0;
 }
 
@@ -41,4 +43,9 @@ section h3 {
   border: 1px solid #ccc;
   border-radius: 5px;
   margin: 0 auto;
+}
+
+.image {
+  height: 258px;
+  width: 480px;
 }
