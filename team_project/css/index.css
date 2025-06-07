@@ -21,6 +21,7 @@ body {
 .intro {
   display: flex;
   animation: fadeIn 4s;
+  margin-left: 3%;
 }
 
 .intro-text {
