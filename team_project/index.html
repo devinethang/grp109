@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>M04 - Home</title>
     <link rel="stylesheet" href="./css/styles.css" type="text/css" />
+    <link rel="stylesheet" href="./css/index.css" type="text/css" />
   </head>
 
   <body>
@@ -12,7 +13,6 @@
       <div class="logo">
         <h1>THE HIVE</h1>
       </div>
-
       <iframe
         src="nav.html"
         title="Site Navigation"
@@ -20,24 +20,46 @@
       >
       </iframe>
     </header>
+    <div id="home-page">
+      <div class="intro">
+        <div class="intro-text">
+          <h2>Welcome to The Hive</h2>
+          <p>
+            Discover pure, premium raw honey made by bees nurtured in
+            eco-friendly and safe environments. We deliver unfiltered goodness
+            from our hives right to your table.
+          </p>
+          <a href="./products.html" class="btn">Shop For Our Honey!</a>
+        </div>
+        <div class="intro-img">
+          <img
+            src="images/homepagehoney.jpg"
+            alt="Jar of exotic honey surrounded by fresh oranges and flowers"
+            height="600"
+            width="450"
+            id="homepage-img"
+          />
+        </div>
+      </div>
 
-    <section class="intro">
-  <h2>Welcome to The Hive</h2>
-  <p>Discover pure, premium raw honey made by bees nurtured in eco-friendly and safe environments. We deliver unfiltered goodness from our hives right to your table.</p>
-  <a href="./products.html" class="btn">Shop For Our Honey!</a>
-</section>
-
-<section class="home">
-  <h3>Why Choose Our Honey?</h3>
-  <ul>
-    <li> [🍯] 100% Raw & Unfiltered</li>
-    <li> [🌿] Sustainably Harvested</li>
-    <li> [💪] Naturally Rich in Antioxidants!</li>
-  </ul>
-</section>
-
-    
-    <div class="div-col"></div>
+      <div class="middle-home-body">
+        <h3>Why Choose Our Honey?</h3>
+        <div id="middle-imgs">
+          <figure>
+            <figcaption>100% Raw & Unfiltered</figcaption>
+          <img src="./images/middle-image1.jpg" alt="A bee surrounded by sunflowers" height="375" width="300"/>
+          </figure>
+          <figure>
+            <figcaption>Sustainably Harvested</figcaption>
+            <img src="./images/middle-image2.jpg" alt="A honey jar with a dipper" height="375" width="300"/>
+          </figure>
+          <figure>
+            <figcaption>Naturally Rich in Antioxidants!</figcaption>
+            <img src="./images/middle-image3.jpg" alt="A golden honeycomb" height="375" width="300"/>
+          </figure>
+        </div>
+      </div>
+    </div>
     <footer>
       <div id="footer"></div>
     </footer>
