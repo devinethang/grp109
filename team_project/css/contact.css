@@ -37,7 +37,7 @@ textarea {
     padding: 10px;
 }
 
-#message-block {
+#message {
     height: 200px;
     width: 800px;
     border: 1px solid #ddd;
@@ -47,4 +47,10 @@ textarea {
 #button:hover{
     background-color: #e4b61a;
     transition: .3s;
+}
+
+.errorMessages {
+    color: red;
+    font-size: 0.9rem;
+    margin-top: 5px;
 }

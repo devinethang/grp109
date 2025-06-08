@@ -15,18 +15,29 @@
       <iframe src="nav.html" title="Site Navigation" style="border:none; width:100%; height:3em;">
       </iframe>
 
+      <link rel="javascript" href="js/script.js" type="text/javascript" />
     </header>
     <div>
       <div class="contact-form">
         <h1>Contact Us</h1>
         <p>If you have any questions, or just want to let us know how much you enjoy our honey, feel free to reach out!</p>
-        <form action="submit_contact.php" method="POST">
-          <label for="name">Name:</label><br>
-          <input type="text" id="name" name="name" required><br><br>
+        <form action="" method="GET" onsubmit="return validateForm()">
+          <label for="name">Name:</label>
+          <br>
+          <input type="text" id="name" name="name"><br>
+          <div class="errorMessages" id="nameError"></div>
+          <br><br>
+
           <label for="email">Email:</label><br>
-          <input type="email" id="email" name="email" required><br><br>
-          <label for="message-block">Message:</label><br>
-          <textarea id="message-block" name="message" required></textarea><br><br>
+          <input type="email" id="email" name="email"> <br>
+          <div class="errorMessages" id="emailError"></div>
+          <br><br>
+
+          <label for="message">Message:</label><br>
+          <textarea id="message" name="message"></textarea> <br>
+          <div class="errorMessages" id="messageError"></div>
+          <br><br>
+
           <input id="button" type="submit" value="Submit">
         </form>
       </div>
@@ -35,5 +46,6 @@
       <div id="footer"></div>
     </footer>
     <script src="./js/script.js"></script>
+    <script src="./js/form.js"></script>
   </body>
 </html>
