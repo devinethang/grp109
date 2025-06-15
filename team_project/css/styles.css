@@ -19,6 +19,14 @@ header {
 .logo {
   font-size: 30px;
 }
+.logo a:link {
+  text-decoration: none;
+    color: #e4b61a;
+}
+
+.logo a:hover {
+    color: #dfdfdf;
+}
 
 #page-links a {
 padding: 25px;
