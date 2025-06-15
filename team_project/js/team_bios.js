@@ -56,7 +56,7 @@ const bios = {
               Heya! I'm Joel — a full time student at Bellevue College pursuing Software Development.
             </p>
             <p>
-              I like take and edit photos/videos, ride motorcycles and travel to new places. I am also somewhat into tech and love cats. 
+              I'm originally from India and love taking photos/recording and video editing, riding motorcycles and travelling to new places. I am also somewhat into tech and really love cats. 
             </p>
             <p>
               My role in this project is to assist with the HTML/CSS formatting and checking for errors within the repository.
