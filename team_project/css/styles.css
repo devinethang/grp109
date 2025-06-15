@@ -20,28 +20,28 @@ header {
   font-size: 30px;
 }
 
-.logo a:link {
+.logo a {
   text-decoration: none;
-  color: #e4b61a !important;
+  display: inline-block;
+  color: #e4b61a;
+  transition: color 0.2s ease, transform 0.2s ease; /* added transform */
 }
 
 .logo a:hover {
-    color: #dfdfdf !important;
+  color: #e9eaec; 
+  transform: scale(1.02);
 }
 
-#page-links a {
-padding: 25px;
+#page-links a,
+.nav a {
+  text-decoration: none;
+  color: #e9eaec; 
+  transition: color 0.2s ease;
+  padding: 25px;
 }
 
-a:link {
-  color: #dfdfdf;
-}
-
-a:visited {
-  color: #dfdfdf;
-}
-
-a:hover {
+#page-links a:hover,
+.nav a:hover {
   color: #e4b61a;
 }
 
