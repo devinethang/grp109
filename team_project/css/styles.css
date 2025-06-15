@@ -19,13 +19,14 @@ header {
 .logo {
   font-size: 30px;
 }
+
 .logo a:link {
   text-decoration: none;
-    color: #e4b61a;
+  color: #e4b61a !important;
 }
 
 .logo a:hover {
-    color: #dfdfdf;
+    color: #dfdfdf !important;
 }
 
 #page-links a {
