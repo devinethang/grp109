@@ -7,7 +7,7 @@ body {
 }
 
 header {
-  background-color: #0B0C0C;
+  background-color: #0b0c0c;
   color: #e4b61a;
   height: 225px;
   display: flex;
@@ -24,18 +24,18 @@ header {
   text-decoration: none;
   display: inline-block;
   color: #e4b61a;
-  transition: color 0.2s ease, transform 0.2s ease; /* added transform */
+  transition: color 0.2s ease, transform 0.2s ease;
 }
 
 .logo a:hover {
-  color: #e9eaec; 
+  color: #e9eaec;
   transform: scale(1.02);
 }
 
 #page-links a,
 .nav a {
   text-decoration: none;
-  color: #e9eaec; 
+  color: #e9eaec;
   transition: color 0.2s ease;
   padding: 25px;
 }
@@ -48,8 +48,7 @@ header {
 
 #page-links a:hover,
 .nav a:hover {
-    animation: blink-animation 0.9s steps(2, start) infinite;
-
+  animation: blink-animation 1s steps(2, start) infinite;
   color: #e4b61a;
 }
 
@@ -67,7 +66,7 @@ header {
 }
 
 footer {
-  background-color: #0B0C0C;
+  background-color: #0b0c0c;
   color: #dfdfdf;
   height: 175px;
   display: flex;
@@ -95,7 +94,7 @@ footer {
 .product-gallery {
   text-align: center;
   padding: 2rem;
-  color: #dfdfdf; 
+  color: #dfdfdf;
 }
 
 .product {
@@ -108,7 +107,7 @@ footer {
   width: 160px;
   height: auto;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.05); 
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.05);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
