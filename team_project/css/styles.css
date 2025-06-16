@@ -40,8 +40,16 @@ header {
   padding: 25px;
 }
 
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+
 #page-links a:hover,
 .nav a:hover {
+    animation: blink-animation 0.9s steps(2, start) infinite;
+
   color: #e4b61a;
 }
 
