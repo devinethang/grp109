@@ -46,10 +46,11 @@ footer.innerHTML = `
 
 document.addEventListener("DOMContentLoaded", function () {
   const devNames = ["Wilbur Amaya", "Devin Graupmann", "Joel Samuel"];
-  const container = document.getElementById("scrolling-names");
+  const nameList = document.getElementById("name-list");
 
-  const nameWrapper = document.createElement("div");
-  nameWrapper.className = "name";
-  nameWrapper.innerHTML = devNames.map(name => `${name}<br>`).join("");
-  container.appendChild(nameWrapper);
+  devNames.forEach(name => {
+    const li = document.createElement("li");
+    li.textContent = name;
+    nameList.appendChild(li);
+  });
 });
