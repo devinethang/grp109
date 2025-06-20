@@ -62,7 +62,7 @@ a.btn:hover {
   display: flex;
   flex-direction: column;
   gap: 30px;
-  height: 520px;
+  min-height: 520px;
   padding: 10px;
   padding-top: 40px;
   padding-bottom: 130px;
@@ -84,14 +84,13 @@ figcaption{
     flex-direction: row;
     justify-content: center;
     gap: 100px;
+    flex-wrap: wrap;
 }
-
-
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 #developers-box {
-  border: 10px solid #e4b61a;
+  border: 5px solid #e4b61a;
   background-color: #1f1f1f;
   color: white;
   padding: 20px;
@@ -100,7 +99,7 @@ figcaption{
   font-family: 'Roboto', sans-serif;
   text-align: center;
   border-radius: 15px;
-  box-shadow: 0 0 15px rgba(228, 182, 26, 0.5);
+  box-shadow: 0 0 12px rgba(228, 182, 26, 0.5);
 }
 
 .static-info {
@@ -111,7 +110,7 @@ figcaption{
 }
 
 #scrolling-names {
-  height: 30px;
+  height: 1.3em;
   overflow: hidden;
   position: relative;
 }
@@ -160,10 +159,10 @@ figcaption{
   position: absolute;
   top: 40%;
   background-color: rgba(255, 255, 255, 0.6);
-  border: none;
+  border: 3px solid #e4b61a;
   font-size: 2em;
   cursor: pointer;
-  padding: 0.2em 0.5em;
+  padding: 0.1em 0.3em;
   border-radius: 8px;
   color: black;
   transition: background-color 0.3s ease;
