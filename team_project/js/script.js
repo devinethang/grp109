@@ -43,3 +43,13 @@ footer.innerHTML = `
       </a>
     </div>
   </div>`;
+
+document.addEventListener("DOMContentLoaded", function () {
+  const devNames = ["Wilbur Amaya", "Devin Graupmann", "Joel Samuel"];
+  const container = document.getElementById("scrolling-names");
+
+  const nameWrapper = document.createElement("div");
+  nameWrapper.className = "name";
+  nameWrapper.innerHTML = devNames.map(name => `${name}<br>`).join("");
+  container.appendChild(nameWrapper);
+});
