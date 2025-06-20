@@ -131,3 +131,61 @@ figcaption{
   71%  { top: -60px; }
   100% { top: 0; }
 }
+
+.carousel-container {
+  text-align: center;
+  position: relative;
+}
+
+.carousel {
+  position: relative;
+  display: inline-block;
+}
+
+#carousel-image {
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+#carousel-description {
+  margin-top: 0.5em;
+  font-weight: bold;
+  color: #e4b61a;
+  font-size: 1.1em;
+}
+
+#prev-btn,
+#next-btn {
+  position: absolute;
+  top: 40%;
+  background-color: rgba(255, 255, 255, 0.6);
+  border: none;
+  font-size: 2em;
+  cursor: pointer;
+  padding: 0.2em 0.5em;
+  border-radius: 8px;
+  color: black;
+  transition: background-color 0.3s ease;
+}
+
+#prev-btn:hover,
+#next-btn:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+#prev-btn {
+  left: -2.5em;
+}
+
+#next-btn {
+  right: -2.5em;
+}
+
+#carousel-timer {
+  margin-top: 0.5em;
+  font-size: 1em;
+  font-style: italic;
+  color: #e4b61a;
+}
+

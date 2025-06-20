@@ -1,87 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>M04 - Home</title>
-    <link rel="stylesheet" href="./css/styles.css" type="text/css" />
-    <link rel="stylesheet" href="./css/index.css" type="text/css" />
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>M04 - Home</title>
+  <link rel="stylesheet" href="./css/styles.css" type="text/css" />
+  <link rel="stylesheet" href="./css/index.css" type="text/css" />
+</head>
 
-  <body>
-    <header>
-      <div class="logo"><h1><a href="./index.html">THE HIVE</a></h1></div>
-      <iframe
-        src="nav.html"
-        title="Site Navigation"
-        style="border: none; width: 100%; height: 3em"
-      >
-      </iframe>
-    </header>
-    <div id="home-page">
-      <div class="intro">
-        <div class="intro-text">
-          <h2>Welcome to The Hive</h2>
-          <p>
-            Discover pure, premium raw honey made by bees nurtured in
-            eco-friendly and safe environments. We deliver unfiltered goodness
-            from our hives right to your table.
-          </p>
-          <a href="./products.html" class="btn">Shop For Our Honey!</a>
-        </div>
-        <div class="intro-img">
-          <img
-            src="images/homepagehoney.jpg"
-            alt="Jar of exotic honey surrounded by fresh oranges and flowers"
-            height="600"
-            width="450"
-            id="homepage-img"
-          />
-        </div>
+<body>
+  <header>
+    <div class="logo"><h1><a href="./index.html">THE HIVE</a></h1></div>
+    <iframe
+      src="nav.html"
+      title="Site Navigation"
+      style="border: none; width: 100%; height: 3em"
+    ></iframe>
+  </header>
+
+  <div id="home-page">
+    <div class="intro">
+      <div class="intro-text">
+        <h2>Welcome to The Hive</h2>
+        <p>
+          Discover pure, premium raw honey made by bees nurtured in
+          eco-friendly and safe environments. We deliver unfiltered goodness
+          from our hives right to your table.
+        </p>
+        <a href="./products.html" class="btn">Shop For Our Honey!</a>
       </div>
+      <div class="intro-img">
+        <img
+          src="images/homepagehoney.jpg"
+          alt="Jar of exotic honey surrounded by fresh oranges and flowers"
+          height="600"
+          width="450"
+          id="homepage-img"
+        />
+      </div>
+    </div>
 
-      <div class="middle-home-body">
-        <h3>Why Choose Our Honey?</h3>
-        <div id="middle-imgs">
-          <figure>
-            <figcaption>100% Raw & Unfiltered</figcaption>
-            <img
-              src="./images/middle-image1.jpg"
-              alt="A bee surrounded by sunflowers"
-              height="375"
-              width="300"
-            />
-          </figure>
-          <figure>
-            <figcaption>Sustainably Harvested</figcaption>
-            <img
-              src="./images/middle-image2.jpg"
-              alt="A honey jar with a dipper"
-              height="375"
-              width="300"
-            />
-          </figure>
-          <figure>
-            <figcaption>Naturally Rich in Antioxidants!</figcaption>
-            <img
-              src="./images/middle-image3.jpg"
-              alt="A golden honeycomb"
-              height="375"
-              width="300"
-            />
-          </figure>
+    <div class="middle-home-body">
+      <h3>Why Choose Our Honey?</h3>
+      <div class="carousel-container">
+        <div class="carousel">
+          <img
+            id="carousel-image"
+            src="./images/middle-image1.jpg"
+            alt="A bee surrounded by sunflowers"
+            width="300"
+            height="375"
+          />
+          <p id="carousel-description">100% Raw & Unfiltered</p>
+          <button id="prev-btn">⬅</button>
+          <button id="next-btn">➡</button>
+          <div id="carousel-timer">0s</div>
+          <audio id="sound-left" src="./sounds/pop.ogg" preload="auto"></audio>
+          <audio id="sound-right" src="./sounds/click.wav" preload="auto"></audio>
         </div>
       </div>
     </div>
-      <div id="developers-box">
-  <div class="static-info">Completed: June 2025</div>
-  <div id="scrolling-names"></div>
-</div>
-    
-    <footer>
-      <div id="footer"></div>
-    </footer>
+  </div>
 
-    <script src="./js/script.js"></script>
-  </body>
+  <div id="developers-box">
+    <div class="static-info">Completed: June 2025</div>
+    <div id="scrolling-names"></div>
+  </div>
+
+  <footer>
+    <div id="footer"></div>
+  </footer>
+
+  <script src="./js/script.js"></script>
+</body>
 </html>
