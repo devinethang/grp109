@@ -125,10 +125,9 @@ figcaption{
 
 @keyframes scrollNames {
   0%   { top: 0; }
-  25%  { top: 0; }
-  30%  { top: -30px; }
-  55%  { top: -30px; }
-  60%  { top: -60px; }
-  85%  { top: -60px; }
-  100%  { top: 0; }
+  33%  { top: 0; }
+  38%  { top: -30px; }
+  66%  { top: -30px; }
+  71%  { top: -60px; }
+  100% { top: 0; }
 }
