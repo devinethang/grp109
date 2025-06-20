@@ -83,3 +83,43 @@ figcaption{
     justify-content: center;
     gap: 100px;
 }
+
+#developers-box {
+  border: 10px solid #e4b61a;
+  background-color: #333; /* high contrast */
+  color: white;
+  padding: 20px;
+  width: 300px;
+  margin: 40px auto;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  position: relative;
+  border-radius: 10px;
+}
+
+.static-info {
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+#scrolling-names {
+  height: 30px;
+  overflow: hidden;
+  position: relative;
+}
+
+#scrolling-names .name {
+  position: absolute;
+  width: 100%;
+  animation: scrollNames 9s linear infinite;
+}
+
+@keyframes scrollNames {
+  0%   { top: 0; }
+  33%  { top: 0; }
+  38%  { top: -30px; }
+  66%  { top: -30px; }
+  71%  { top: -60px; }
+  100% { top: 0; }
+}
