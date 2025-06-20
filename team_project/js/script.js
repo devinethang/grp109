@@ -1,28 +1,3 @@
-// Old Form validation and submission handling
-// document.addEventListener("DOMContentLoaded", function () {
-//   const form = document.querySelector("form");
-
-//   // Stops the default submission
-//   form.addEventListener("submit", function (e) {
-//     // e.preventDefault();
-
-//     // Gets user inputs
-//     const name = document.getElementById("name").value.trim();
-//     const email = document.getElementById("email").value.trim();
-//     const message = document.getElementById("message-block").value.trim();
-
-//     // Confirmation message display and reset
-//     const confirmation =
-//       `We Appreciate Your Buzz, ${name}!\n\n` +
-//       `Email: ${email}\n` +
-//       `Message:\n${message}\n\n` +
-//       `Our bess are on it, and we'll get back to you as soon as we can!`;
-
-//     alert(confirmation);
-//     form.reset();
-//   });
-// });
-
 // Footer block
 let n = new Date();
 let year = n.getFullYear();
@@ -44,8 +19,9 @@ footer.innerHTML = `
     </div>
   </div>`;
 
+// Dev Box
 document.addEventListener("DOMContentLoaded", function () {
-  const devNames = ["Wilbur Amaya", "Devin Graupmann", "Joel Samuel"];
+  const devNames = ["Wilber Amaya", "Devin Graupmann", "Joel Samuel"];
   const container = document.getElementById("scrolling-names");
 
   const nameWrapper = document.createElement("div");
