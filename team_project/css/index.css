@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 #home-page {
   margin: 10px;
@@ -86,7 +87,6 @@ figcaption{
     flex-wrap: wrap;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 #developers-box {
   border: 5px solid #e4b61a;
