@@ -42,7 +42,7 @@ header {
 
 @keyframes blink-animation {
   to {
-    visibility: hidden;
+    opacity: 0;
   }
 }
 
