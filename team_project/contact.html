@@ -17,16 +17,11 @@
         src="nav.html"
         title="Site Navigation"
         style="border: none; width: 100%; height: 3em"
-      >
-      </iframe>
-
-      <script
-        rel="javascript"
-        src="js/script.js"
-        type="text/javascript"
-      ></script>
+      ></iframe>
+      <script src="js/script.js" type="text/javascript"></script>
     </header>
-    <div>
+
+    <main>
       <div class="contact-form">
         <h1>Contact Us</h1>
         <p>
@@ -34,30 +29,34 @@
           enjoy our honey, feel free to reach out!
         </p>
         <form action="." method="GET" onsubmit="return validateForm()">
-          <label for="name">Name:</label>
-          <br />
+          <label for="name">Name:</label><br />
           <input type="text" id="name" name="name" /><br />
           <div class="errorMessages" id="nameError"></div>
           <br /><br />
 
           <label for="email">Email:</label><br />
-          <input type="email" id="email" name="email" /> <br />
+          <input type="email" id="email" name="email" /><br />
           <div class="errorMessages" id="emailError"></div>
           <br /><br />
 
           <label for="message">Message:</label><br />
-          <textarea id="message" name="message"></textarea> <br />
+          <textarea id="message" name="message"></textarea><br />
           <div class="errorMessages" id="messageError"></div>
           <br /><br />
 
           <input id="button" type="submit" value="Submit" />
         </form>
+
+        <!-- List of messages added via JavaScript -->
+        <h2>Messages Received</h2>
+        <ul id="messageList"></ul>
       </div>
-    </div>
+    </main>
+
     <footer>
       <div id="footer"></div>
     </footer>
-    <script src="./js/script.js"></script>
+
     <script src="./js/form.js"></script>
   </body>
 </html>

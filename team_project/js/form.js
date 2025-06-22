@@ -1,71 +1,80 @@
 function validateForm() {
-  //1) create a variable to control status of each field. Assume that they are not valid
+  // Track validation status
   let isValid = {
     name: false,
     email: false,
     message: false,
   };
 
-  //3) do the validation
-  try {
-    //2) create variables to read the values from html text inputs
-    let name = document.getElementById("name").value;
-    let email = document.getElementById("email").value;
-    let message = document.getElementById("message").value;
+  // Clear previous error messages
+  document.getElementById("nameError").innerHTML = "";
+  document.getElementById("emailError").innerHTML = "";
+  document.getElementById("messageError").innerHTML = "";
 
-    // Check if name is not empty
-    if (name === "null" || name === "" || name.length > 20) {
-      throw new Error("Name cannot be empty");
+  // Get field values
+  let name = document.getElementById("name").value.trim();
+  let email = document.getElementById("email").value.trim();
+  let message = document.getElementById("message").value.trim();
+
+  // Validation logic
+  try {
+    if (name === "" || name === "null" || name.length > 20) {
+      throw new Error("name");
     } else {
       isValid.name = true;
     }
 
-    // Check if email is valid
     let emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    if (!email) {
-      throw new Error("Email cannot be empty");
-    }
-    if (!emailPattern.test(email)) {
-      throw new Error("Invalid email format");
+    if (email === "" || !emailPattern.test(email)) {
+      throw new Error("email");
     } else {
       isValid.email = true;
     }
 
-    // Check if message is not empty
-    if (!message || message.trim() === "") {
-      throw new Error("Message cannot be empty");
+    if (message === "") {
+      throw new Error("message");
     } else {
       isValid.message = true;
     }
 
-    //Confirmation message display and reset
-    const confirmation =
-      `We Appreciate Your Buzz, ${name}!\n\n` +
-      `Email: ${email}\n` +
-      `Message:\n${message}\n\n` +
-      `Our bess are on it, and we'll get back to you as soon as we can!`;
+    // All fields valid
+    if (isValid.name && isValid.email && isValid.message) {
+      const confirmation =
+        `We Appreciate Your Buzz, ${name}!\n\n` +
+        `Email: ${email}\n` +
+        `Message:\n${message}\n\n` +
+        `Our bees are on it, and we'll get back to you as soon as we can!`;
 
-    alert(confirmation);
+      alert(confirmation);
+
+      // Add message to list
+      const list = document.getElementById("messageList");
+      if (list) {
+        const li = document.createElement("li");
+        li.textContent = `From: ${name} | ${email} | "${message}"`;
+        list.appendChild(li);
+      }
+
+      // Reset form fields
+      document.getElementById("name").value = "";
+      document.getElementById("email").value = "";
+      document.getElementById("message").value = "";
+
+      return false; // Stay on page
+    }
   } catch (error) {
-    //4) send error messages
-
-    // Display error messages in the console
-    console.error(error.message);
-
-    if (!isValid.name) {
-      nameError.innerHTML =
-        "The firstname is required, must be alphabetical, and cannot be greater than 20 characters.";
-      return false;
+    // Display appropriate error message
+    if (error.message === "name") {
+      document.getElementById("nameError").innerHTML =
+        "Name is required and must be 1-20 characters.";
+    } else if (error.message === "email") {
+      document.getElementById("emailError").innerHTML =
+        "Email is required and must be in a valid format.";
+    } else if (error.message === "message") {
+      document.getElementById("messageError").innerHTML =
+        "Message is required.";
     }
 
-    if (!isValid.email) {
-      emailError.innerHTML = "Email is required and must be valid.";
-      return false;
-    }
-
-    if (!isValid.message) {
-      messageError.innerHTML = "Message is required.";
-      return false;
-    }
+    return false;
   }
 }
