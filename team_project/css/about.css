@@ -16,8 +16,8 @@ h3 {
 }
 
 #change-link {
-  background-color: #e4b61a;
-  color: black ;
+  color: rgb(0, 0, 0);
+  background-color: #f6bd05;
   padding: 12px 15px;
   margin-top: 10px;
   text-align: center;
@@ -27,7 +27,7 @@ h3 {
   transition: background-color 0.2s ease, color 0.2s ease;
 }
 
-#change-link {
-  color: white;
-  background-color: #b48e11;
+#change-link:hover {
+  color: rgb(240, 240, 240);
+  background-color: #b98e00;
 }
