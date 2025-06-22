@@ -49,11 +49,16 @@ function validateForm() {
 
       // Add message to list
       const list = document.getElementById("messageList");
-      if (list) {
-        const li = document.createElement("li");
-        li.textContent = `From: ${name} | ${email} | "${message}"`;
-        list.appendChild(li);
+
+      // Remove placeholder if it exists
+      const placeholder = document.getElementById("placeholderMessage");
+      if (placeholder) {
+        placeholder.remove();
       }
+
+      const li = document.createElement("li");
+      li.textContent = `From: ${name} | ${email} | "${message}"`;
+      list.appendChild(li);
 
       // Reset form fields
       document.getElementById("name").value = "";
@@ -66,7 +71,7 @@ function validateForm() {
     // Display appropriate error message
     if (error.message === "name") {
       document.getElementById("nameError").innerHTML =
-        "Name is required and must be 1-20 characters.";
+        "Name is required and must be 1–20 characters.";
     } else if (error.message === "email") {
       document.getElementById("emailError").innerHTML =
         "Email is required and must be in a valid format.";

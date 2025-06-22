@@ -45,7 +45,11 @@
 
         <!-- List of messages added via JavaScript -->
         <h2>Messages Received</h2>
-        <ul id="messageList"></ul>
+        <ul id="messageList" role="list">
+          <li class="visually-hidden" id="placeholderMessage">
+            No messages yet.
+          </li>
+        </ul>
       </div>
     </main>
 
