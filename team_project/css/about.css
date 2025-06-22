@@ -3,17 +3,6 @@
     padding: 32px;
 }
 
-#project-desc-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  text-align: center;
-  padding: 25px;
-  margin-top: 25px;
-  margin-bottom: 25px;
-}
-
 h2 {
   font-weight: bolder;
   text-decoration: underline;
