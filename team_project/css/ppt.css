@@ -8,3 +8,20 @@ h2 {
   color: #e4b61a;
   margin-bottom: 15px;
 }
+
+.backup-link {
+  color: rgb(0, 0, 0);
+  background-color: #f6bd05;
+  padding: 12px 15px;
+  margin-top: 10px;
+  text-align: center;
+  text-decoration: none;
+  width: 15%;
+  display: inline-block;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.backup-link:hover {
+  color: rgb(240, 240, 240);
+  background-color: #b98e00;
+}
