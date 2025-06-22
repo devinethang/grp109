@@ -1,16 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Navigation</title>
-    <base target="_top">
-    <link rel="stylesheet" href="./css/styles.css" type="text/css">
-    <link rel="stylesheet" href="./css/nav.css" type="text/css">
-</head>
+const nav = document.getElementById("navigation");
 
-<body>
-    <!-- Navigation - Edit the following code to change site navigation on every page -->
+// Change the content of the navigation bar dynamically
+nav.innerHTML = `
         <nav id="page-links" >
                 <a href="./index.html">HOME</a>
                 <a href="./products.html">PRODUCTS</a>
@@ -23,5 +14,4 @@
                 <a href="./goal.html">GOALS</a>
                 <a href="./ppt.html">PRESENTATION</a>
       </nav>
-</body>
-</html>
+`;
