@@ -14,3 +14,20 @@ h3 {
   font-weight: bolder;
   color: #f3d87f;
 }
+
+#change-link {
+  background-color: #e4b61a;
+  color: black ;
+  padding: 12px 15px;
+  margin-top: 10px;
+  text-align: center;
+  text-decoration: none;
+  width: 15%;
+  display: inline-block;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+#change-link {
+  color: white;
+  background-color: #b48e11;
+}
